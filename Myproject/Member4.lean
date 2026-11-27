@@ -5,7 +5,7 @@ import Mathlib.Combinatorics.SimpleGraph.Basic
 import Mathlib.Combinatorics.SimpleGraph.Walk.Basic
 import Mathlib.Data.Fin.Basic
 
-/-! Siraphob Buahong (braum)'s work for the project. -/
+/-! Siraphob Buahong (braum/whysosaltyty)'s work for the project. -/
 open SimpleGraph
 
 #check SimpleGraph.completeGraph
@@ -13,7 +13,7 @@ open SimpleGraph
 #check Walk.IsHamiltonian.isHamiltonian_of_adj
 
 variable {V : Type*}
-
+variable {n : ℕ}
 /- V = V(G) size, Fintype for V to have finite cardinality, DecidableEq for vertex comparison-/
 
 
